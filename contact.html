@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>S05 Activity</title>
+	</head>
+	<body>
+		<header>
+			<h1 align="center">Session 05 Activity - Tables, Forms, and Semantic HTML</h1> 
+		</header>
+
+		<hr>
+
+		<!-- Section for the PRODUCTS OFFERED TABLE -->
+		<section id="tableActivity">
+
+			<fieldset>
+
+				<div class="sectionTitle">
+					<h2>Zuitt IT Solutions</h2>
+					<h3>Products Offered</h3>
+				</div>
+				<div class="sectionContent">
+					<table border="1">
+						<thead>
+							<tr>
+								<th>Package</th>
+								<th>Price</th>
+								<th>Description</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Basic</td>
+								<td>&#8369; 500.00</td>
+								<td>Package includes a fully functional website with desired specifications.</td>
+							</tr>
+							<tr>
+								<td>Premium</td>
+								<td>&#8369; 1000.00</td>
+								<td>Enjoy all the benefits of the basic package and also includes site support and maintenance.</td>
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr>
+								<th colspan="3">Additional features after initial project is inclusive of charges</th>
+							</tr>
+						</tfoot>
+					</table>
+				</div>
+
+			</fieldset>
+
+		</section>
+
+		<hr>
+
+		<!-- Section for the CONTACT FORM -->
+		<section>
+			<div class="sectionTitle">
+				<h2>Contact Form</h2>
+			</div>
+
+			<div class="sectionContent">
+
+				<form>
+					
+				<label for="firstName">First Name: </label><br>
+	    		<input type="text" id="firstName" required autocomplete>
+
+	    		<br>
+
+	    		<label for="firstName">Last Name: </label><br>
+	    		<input type="text" id="lastName" required autocomplete>
+
+	    		<br>
+
+	    		<label for="firstName">Email: </label><br>
+	    		<input type="email" id="email" required autocomplete>
+
+	    		<br>
+
+	    		<label for="firstName">Contact Number: </label><br>
+	    		<input type="number" id="firstName" required autocomplete>
+
+	    		<br>
+
+	    		<label for="serviceType">Service Type:</label><br>
+	    		<select name="serviceType" id="serviceType">
+	    			<option value="Front End Programming">Front End Programming</option>
+	    			<option value="Back End Programming">Back End Programming</option>
+	    		</select>
+
+	    		<br>
+
+	    		<label> Preferred Contact: </label><br>
+	    		<input type="checkbox" name="preferredContact" id="preferredContactEmail" value="developer">
+	    		<label for="preferredContactEmail">Email</label>
+	    		<br>
+
+	    		<input type="checkbox" name="preferredContact" id="preferredContactPhone" value="Student">
+	    		<label for="preferredContactPhone">Phone</label>
+
+	    		<br>
+
+	    		<label>Package:</label><br>
+
+	    		<input type="radio" name="packageType" value="Basic" id="packageTypeBasic">
+	    		<label for="packageTypeBasic">Basic</label>
+
+	    		<br>
+
+	    		<input type="radio" name="packageType" value="Premium" id="packageTypePremium">
+	    		<label for="packageTypePremium">Premium</label>
+
+	    		<br>
+
+	    		<label for="message">Message:</label><br>
+	    		<textarea id="message" cols="20" rows="5" ></textarea>
+
+	    		<br>
+
+	    		<button type="submit">Send Inquiry</button>
+
+	    		<br>
+
+	    		<button type="reset">Reset</button>
+
+				</form>
+
+			</div>
+		</section>
+	</body>
+</html>
